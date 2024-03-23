@@ -17,7 +17,7 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "contentlayer/generated": ["./.contentlayer/generated"],
+    
       "data/*": ["./data/*"],
       "components/*": ["./components/*"],
       "hooks/*": ["./hooks/*"]
@@ -27,7 +27,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".contentlayer/generated"
+  
   ],
   "exclude": ["node_modules"]
 }
