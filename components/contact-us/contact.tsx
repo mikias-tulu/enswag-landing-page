@@ -55,22 +55,31 @@ const Form1 = () => {
       </FormControl>
 
       <FormControl>
-        <FormLabel htmlFor="password" fontWeight={'normal'} mt="2%">
-          Enswag Username 
-        </FormLabel>
-        <InputGroup size="md">
-          <Input
-            pr="4.5rem"
-            type={show ? 'text' : 'password'}
-            placeholder="Enter username"
-          />
-          <InputRightElement width="4.5rem">
-            <Button h="1.75rem" size="sm" onClick={handleClick}>
-              {show ? 'Hide' : 'Show'}
-            </Button>
-          </InputRightElement>
-        </InputGroup>
-      </FormControl>
+  <FormLabel
+    htmlFor="password"
+    fontSize="sm"
+    fontWeight="md"
+    color="gray.700"
+    _dark={{
+      color: 'gray.50',
+    }}
+    mt="2%">
+    Enswag Username 
+  </FormLabel>
+  <InputGroup size="md">
+    <Input
+      pr="4.5rem"
+      type={show ? 'text' : 'password'}
+      placeholder="Enter username"
+    />
+    <InputRightElement width="4.5rem">
+      <Button h="1.75rem" size="sm" onClick={handleClick}>
+        {show ? 'Hide' : 'Show'}
+      </Button>
+    </InputRightElement>
+  </InputGroup>
+</FormControl>
+
     </>
   )
 }
@@ -413,7 +422,7 @@ export default function ContactUs() {
                 onClick={() => {
                   toast({
                     title: 'Account created.',
-                    description: "We've created your account for you.",
+                    description: "We have created your account for you.",
                     status: 'success',
                     duration: 3000,
                     isClosable: true,

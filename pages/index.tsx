@@ -187,7 +187,7 @@ const HeroSection: React.FC = () => {
           {
             title: "Effortless Creation:",
             icon: FiSmile,
-            description: "Capture stunning short-form videos with Enswag's intuitive camera tools. Edit and enhance your videos with a library of trendy filters, effects, and transitions.",
+            description: "Capture stunning short-form videos with Enswag intuitive camera tools. Edit and enhance your videos with a library of trendy filters, effects, and transitions.",
             iconPosition: "left",
             delay: 0.6,
           },
@@ -211,7 +211,7 @@ const HeroSection: React.FC = () => {
             title: "Endless Entertainment",
             icon: FiThumbsUp,
             description:
-              "Explore a personalized feed curated based on your interests and watch videos that keep you engaged. Browse trending topics and challenges to see what's buzzing on Enswag.",
+              "Explore a personalized feed curated based on your interests and watch videos that keep you engaged. Browse trending topics and challenges to see what is buzzing on Enswag.",
             iconPosition: "left",
             delay: 1.1,
           },
@@ -235,7 +235,7 @@ const HighlightsSection = () => {
             Dive into a universe of endless creativity with 
             categories like comedy skits, dance challenges, beauty tutorials, and DIY hacks. <Em>The world is your stage on Enswag! </Em>.
              Ignite your passions, discover new hobbies, and be inspired by a global community of creators 
-             – there's something for everyone on Enswag.
+             – there&apos;s something for everyone on Enswag.
           </Text>
 
           <Flex
@@ -276,7 +276,7 @@ const HighlightsSection = () => {
           <br />
           • <Em>Fill Out Your Profile:</Em> Make your profile shine by adding information and showcasing your talents.  
           <br />
-          • <Em>Get Verified:</Em> Once you've completed your profile, our team will review it for verification. 
+          • <Em>Get Verified:</Em> Once you&apos;ve completed your profile, our team will review it for verification. 
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
@@ -285,17 +285,17 @@ const HighlightsSection = () => {
         avatar="/static/images/eelco.jpg"
         gradient={["pink.200", "purple.500"]}
       >
-       "At Enswag, we believe everyone has a story to tell and a talent to share.
-        That's why we created a platform to connect creators with a global audience. 
-        Download the app and join the movement!" - Murari Sataya, Enswag Founder.
+       &quot;At Enswag, we believe everyone has a story to tell and a talent to share.
+        That&apos;s why we created a platform to connect creators with a global audience. 
+        Download the app and join the movement!&quot; - Murari Sataya, Enswag Founder.
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
         title="Go From Zero to Hero: Features to Fuel Your Enswag Journey"
       >
         <Text color="muted" fontSize="lg">
-          WUnleash your creativity and express yourself with Enswag's extensive toolbox. 
-          Dive into these features and start creating content that captures the world's attention!
+          Unleash your creativity and express yourself with Enswag&apos;s extensive toolbox. 
+          Dive into these features and start creating content that captures the world&apos;s attention!
 
         </Text>
         <Wrap mt="8">
@@ -392,7 +392,7 @@ const FeaturesSection = () => {
           title: "Feature flags.",
           icon: FiFlag,
           description:
-            "Implement feature toggles for your billing plans with easy to use hooks. Connect Flagsmith, or other remote config services once you're ready.",
+            "Implement feature toggles for your billing plans with easy to use hooks. Connect Flagsmith, or other remote config services once you&apos;re ready.",
           variant: "inline",
         },
         {
@@ -481,7 +481,7 @@ const CarouselSection = () => {
       title="Glimpse into Enswag: Spark Your Creativity!"
       description={
         <>
-         Explore. Create. Inspire. Peek into Enswag's dynamic slideshow for a burst of creativity. Join us now and let your imagination run wild!
+         Explore. Create. Inspire. Peek into Enswag&apos;s dynamic slideshow for a burst of creativity. Join us now and let your imagination run wild!
         </>
       }
     />

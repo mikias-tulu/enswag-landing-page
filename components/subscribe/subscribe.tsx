@@ -64,7 +64,7 @@ export default function Subscribe() {
   {/* Box containing the company information */}
   <Box maxW="7xl" mx={'auto'} pt={0} px={{ base: 2, sm: 12, md: 17 }}>
     <chakra.h1 textAlign={'center'} fontSize={'4xl'} py={10} fontWeight={'bold'}>
-    Next Year Targets: Enswag's Journey to Achieving Milestones
+    Next Year Targets: Enswag&apos;s Journey to Achieving Milestones
     </chakra.h1>
     <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
       <StatsCard title={'We will connect'} stat={'100,000 people'} />
