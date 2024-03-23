@@ -4,7 +4,7 @@ import { format, parseISO } from 'date-fns'
 
 import { NextPage } from 'next'
 
-import { useMDXComponent } from 'next-contentlayer/hooks'
+
 
 export async function getStaticPaths() {
   
@@ -17,7 +17,7 @@ export async function getStaticProps({ params }) {
 }
 
 const PostLayout: NextPage = ({ post }: any) => {
-  const MDXContent = useMDXComponent(post.body.code)
+  
 
   return (
     <>
@@ -39,7 +39,7 @@ const PostLayout: NextPage = ({ post }: any) => {
           </time>
         </div>
         <div className="cl-post-body">
-          <MDXContent />
+          <></>
         </div>
       </article>
     </>

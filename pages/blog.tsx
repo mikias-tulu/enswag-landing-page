@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 import { compareDesc, format, parseISO } from 'date-fns'
 
-import { useMDXComponent } from 'next-contentlayer/hooks'
+
 
 const Blog: NextPage = ({ posts }: any) => {
   return (
