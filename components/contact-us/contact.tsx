@@ -55,30 +55,30 @@ const Form1 = () => {
       </FormControl>
 
       <FormControl>
-  <FormLabel
-    htmlFor="password"
-    fontSize="sm"
-    fontWeight="md"
-    color="gray.700"
-    _dark={{
-      color: 'gray.50',
-    }}
-    mt="2%">
-    Enswag Username 
-  </FormLabel>
-  <InputGroup size="md">
-    <Input
-      pr="4.5rem"
-      type={show ? 'text' : 'password'}
-      placeholder="Enter username"
-    />
-    <InputRightElement width="4.5rem">
-      <Button h="1.75rem" size="sm" onClick={handleClick}>
-        {show ? 'Hide' : 'Show'}
-      </Button>
-    </InputRightElement>
-  </InputGroup>
-</FormControl>
+        <FormLabel
+          htmlFor="password"
+          fontSize="sm"
+          fontWeight="md"
+          color="gray.700"
+          _dark={{
+            color: 'gray.50',
+          }}
+          mt="2%">
+          Enswag Username
+        </FormLabel>
+        <InputGroup size="md">
+          <Input
+            pr="4.5rem"
+            type={show ? 'text' : 'password'}
+            placeholder="Enter username"
+          />
+          <InputRightElement width="4.5rem">
+            <Button h="1.75rem" size="sm" onClick={handleClick}>
+              {show ? 'Hide' : 'Show'}
+            </Button>
+          </InputRightElement>
+        </InputGroup>
+      </FormControl>
 
     </>
   )
@@ -270,12 +270,9 @@ const Form3 = () => {
             Phone Number
           </FormLabel>
           <InputGroup size="sm">
-            <InputLeftAddon
-              children="+"
-              bg="gray.200"
-              color="gray.500"
-              rounded="md"
-            />
+            <InputLeftAddon bg="gray.200" color="gray.500" rounded="md">
+              +
+            </InputLeftAddon>
             <Input
               type="tel"
               id="phone"
@@ -285,6 +282,7 @@ const Form3 = () => {
               size="sm"
             />
           </InputGroup>
+
         </FormControl>
 
         <FormControl id="social-media" mt={1}>
@@ -300,12 +298,10 @@ const Form3 = () => {
           </FormLabel>
           <Box display="flex" flexWrap="wrap">
             <InputGroup size="sm" mr={2} mb={2}>
-              <InputLeftAddon
-                bg="gray.200"
-                color="gray.500"
-                rounded="md"
-                children="http://"
-              />
+
+              <InputLeftAddon bg="gray.200" color="gray.500" rounded="md">
+                http://
+              </InputLeftAddon>
               <Input
                 type="text"
                 placeholder="www.example.com"
@@ -313,13 +309,11 @@ const Form3 = () => {
                 rounded="md"
               />
             </InputGroup>
+
             <InputGroup size="sm" mr={2} mb={2}>
-              <InputLeftAddon
-                bg="gray.200"
-                color="gray.500"
-                rounded="md"
-                children="@"
-              />
+              <InputLeftAddon bg="gray.200" color="gray.500" rounded="md">
+                @
+              </InputLeftAddon>
               <Input
                 type="text"
                 placeholder="Twitter handle"
@@ -327,13 +321,11 @@ const Form3 = () => {
                 rounded="md"
               />
             </InputGroup>
+
             <InputGroup size="sm" mr={2} mb={2}>
-              <InputLeftAddon
-                bg="gray.200"
-                color="gray.500"
-                rounded="md"
-                children="http://"
-              />
+              <InputLeftAddon bg="gray.200" color="gray.500" rounded="md">
+                http://
+              </InputLeftAddon>
               <Input
                 type="text"
                 placeholder="Facebook URL"
@@ -341,13 +333,11 @@ const Form3 = () => {
                 rounded="md"
               />
             </InputGroup>
+
             <InputGroup size="sm" mr={2} mb={2}>
-              <InputLeftAddon
-                bg="gray.200"
-                color="gray.500"
-                rounded="md"
-                children="@"
-              />
+              <InputLeftAddon bg="gray.200" color="gray.500" rounded="md">
+                @
+              </InputLeftAddon>
               <Input
                 type="text"
                 placeholder="Instagram handle"
@@ -355,6 +345,7 @@ const Form3 = () => {
                 rounded="md"
               />
             </InputGroup>
+
             {/* Add more social media fields as needed */}
           </Box>
           <FormHelperText>
